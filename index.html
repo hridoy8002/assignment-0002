@@ -12,6 +12,10 @@
     <!-- tailwind  -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+        <!-- daisy ui -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+
 
         <style>
             .font-sora{
@@ -21,13 +25,74 @@
 </head>
 <body class="font-sora">
     <!-- header -->
+
+
     <header class="container mx-auto bg-[#EFEBE3]">
+
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>product</a></li>
+                      <li>
+                        <a>Services</a>
+                       
+                      </li>
+                      <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <img class="navbar-start hidden lg:flex" src="c2-assets/logo-header.png" alt="">
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Product</a></li>
+                    <li>
+                      <a> Services</a>
+                    </li>
+                    <li><a>Contact Us </a></li>
+                  </ul>
+
+                  
+                </div>
+                <div class="navbar-end hidden lg:flex">
+                    <img src="c2-assets/Frame 7.png" alt="">
+                  <a class="btn">Log In</a>
+                  <a class="btn bg-[#39B54A]">Register</a>
+                  
+                </div>
+                <div class="navbar-end lg:hidden">
+                    <img src="c2-assets/Group.png" alt="">
+                </div>
+              </div>
+        </nav>
+
+
+
        <div class="items-center">
 
+       <div class="animate-bounce">
         <h2 class="text-center text-4xl">
             Freshness <span class="text-[#39B54A]">You Can</span> <br>
                 <span class="text-[#39B54A]">Count</span> On, Prices You’ll Love!
         </h2>
+       </div>
 
              <p class="text-center text-[#111111]">
                 Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!
